@@ -1,0 +1,32 @@
+programa
+{
+	
+	funcao inicio()
+	{
+	inteiro vetor[10], soma = 0, par[10], impar[10], media = 0, x=0, y=0, i
+	
+	para(i = 0; i < 9; i++){
+	escreva("Digite um número: ")
+	leia (vetor[i])
+	soma += vetor[i]
+
+	se (vetor[i] % 2 == 0){
+		par[x] = vetor[i]
+	}senao{
+		impar[y] = vetor[i]
+	}
+	
+	media = soma/10
+	
+	}
+	para(inteiro z = 0; z < 9; z++){
+	escreva(vetor[z], "-")
+		}
+	
+	escreva ("\nsoma:", soma)
+	escreva ("\npar: ", par[x])
+	escreva("\nimpar: ", impar[y])
+	escreva("\nmedia: ", media)
+
+}
+}
